@@ -1,0 +1,39 @@
+# Arquivos e diretórios do ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+dist/
+build/
+*.egg-info/
+
+# Arquivos específicos do Streamlit
+.streamlit/secrets.toml
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+.temp/
+
+# Arquivos específicos do sistema
+.DS_Store
+Thumbs.db
+.directory
+
+# Diretórios e arquivos do ambiente de desenvolvimento
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos específicos da aplicação
+# Adicione arquivos específicos que não devem ser versionados 
